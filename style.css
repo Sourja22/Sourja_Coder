@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f6dcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-content {
+  display: flex;
+  width: 50rem; 
+  background-color: #fff;
+  box-shadow: 0rem 1.875rem 1.25rem rgba(0, 0, 0, 0.1); 
+  border-radius: 0.9375rem; 
+  overflow: hidden;
+}
+
+.left-content {
+  width: 50%;
+  background-color: white;
+  padding: 0;
+}
+
+.right-content {
+  width: 50%;
+  padding: 2.5rem 1.875rem; 
+  background: linear-gradient(135deg, #f94d6a, #ff416c);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#right-text{
+  font-size: 0.875rem; 
+  line-height: 1.5;
+  max-width: 15.625rem;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 2.5rem 1.875rem; 
+  width: 100%;
+}
+
+.login {
+  text-align: center;
+  margin-bottom: 1.5rem; 
+  color: #333;
+}
+
+.social_logo {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; 
+  margin-bottom: 1.5rem; 
+}
+
+.fb_logo, .twitter_logo, .google_logo {
+  width: 1.875rem; 
+  height: 1.875rem; 
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+.fb_logo:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 0.25rem #1877f2); 
+}
+
+.twitter_logo:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 0.25rem #1DA1F2);
+}
+
+.google_logo:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 0.25rem #DB4437);
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 0;
+  color: grey;
+}
+
+.username, .password {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 0.375em;
+  color: #0a020296;
+}
+
+#username, #password {
+  width: 100%;
+  padding: 0.625rem; 
+  margin-bottom: 1.125rem; 
+  border: 1px solid #ccc;
+  border-radius: 0.375rem; 
+}
+
+.button {
+  margin-top: 0.3125rem; 
+  width: 100%;
+  padding: 0.625rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 0.375rem; 
+  font-size: 1rem; 
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 1rem; 
+  font-size: 0.875rem; 
+}
+
+.sign_up {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sign_up:hover {
+  text-decoration: underline;
+}
+
+
+
